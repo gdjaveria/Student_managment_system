@@ -41,17 +41,17 @@ do {
                         type: "list",
                         name: "ans",
                         message: " please select a course",
-                        choices: ["Typescript", "Python", "css", "HTML"]
+                        choices: ["Typescript", "Python", "CSS", "HTML"]
                     }]);
                 let courseFees = 0;
                 switch (course.ans) {
                     case "Typescript":
                         courseFees = 10000;
                         break;
-                    case "python":
+                    case "Python":
                         courseFees = 12000;
                         break;
-                    case "css":
+                    case "CSS":
                         courseFees = 20000;
                         break;
                     case "HTML":

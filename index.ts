@@ -47,7 +47,7 @@ constructor(id:string,name:string,courseEnrolled:string[],feesAmount:number){
             type: "list",
             name: "ans",
             message: " please select a course",
-            choices: ["Typescript","Python","css","HTML"]
+            choices: ["Typescript","Python","CSS","HTML"]
 
         }])
              let courseFees =0
@@ -55,10 +55,10 @@ constructor(id:string,name:string,courseEnrolled:string[],feesAmount:number){
             case "Typescript" : courseFees = 10000;
             break;
 
-            case "python" :courseFees =12000
+            case "Python" :courseFees =12000
             break;
 
-            case "css" :  courseFees =20000
+            case "CSS" :  courseFees =20000
             break;
 
             case "HTML" :  courseFees =15000
